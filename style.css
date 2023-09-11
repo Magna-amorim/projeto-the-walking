@@ -26,15 +26,80 @@ body{
     header a{
         color: #fff;
         font-size: 1.rem;
-    
-    
+
+        
     }
+
 
 
 main{
     
     flex-grow: 1;
 
+}
+
+.filme-container{
+  
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao{
+    background: blueviolet;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.descricao p {
+    flex-grow: 1;
+    width: 530px;
+    font-size: 1.rem;
+    color: #fff;
+}   
+
+.classificacao{
+    background: pink;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+
+}
+
+.classificacao p {
+    
+    width: 530px;
+    font-size: 1.0rem;
+    color: #fff;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+   
+  
+}
+
+.logo{
+    background: green;
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
